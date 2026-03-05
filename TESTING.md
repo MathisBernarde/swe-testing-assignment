@@ -22,5 +22,7 @@ My testing strategy focuses on ensuring functional correctness and preventing re
 | `test_add_negative_numbers` | Unit | PASS |
 | `test_multiply_large_numbers` | Unit | PASS |
 | `test_clear_function` | Unit | PASS |
+| `test_add_floats` | Unit | PASS |
+| `test_invalid_types` | Unit | PASS |
 | `test_integration_full_user_flow` | Integration | PASS |
 | `test_integration_clear_after_calculation` | Integration | PASS |
