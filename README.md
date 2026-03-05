@@ -1,11 +1,11 @@
 # Quick-Calc
 
-Quick-Calc is a lightweight, reliable calculator application built in Python. It supports basic arithmetic operations including addition, subtraction, multiplication, and division, along with a robust clear function and division-by-zero handling.
+Quick-Calc is a lightweight, reliable calculator application built in Python. It supports basic arithmetic operations including addition, subtraction, multiplication, and division, along with a robust clear function and division by zero handling.
 
 ## Setup Instructions
 1. Ensure you have Python 3 installed on your machine.
 2. Clone this repository.
-3. Install the testing dependency by running: `pip install pytest`
+3. Install the testing dependency by running: `pip install -r requirements.txt`
 
 ## How to Run Tests
 To execute the entire test suite (unit and integration tests), run the following command in the root directory:

@@ -34,3 +34,12 @@ def test_clear_function():
     calc = QuickCalc()
     calc.current_value = 50
     assert calc.clear() == 0.0
+
+def test_add_floats():
+    calc = QuickCalc()
+    assert calc.add(0.1, 0.2) == pytest.approx(0.3)
+
+def test_invalid_types():
+    calc = QuickCalc()
+    with pytest.raises(TypeError):
+        calc.add("10", 5)
